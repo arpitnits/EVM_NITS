@@ -1,0 +1,42 @@
+1715060,Arpit singh,CSE 
+1715049,Amrit Raj,CSE
+1715053,Ankit Kumar,CSE
+1715036,Ojasvee Chaurasia,CSE
+1715024,Tarun Kumar,CSE
+1715001,Manaswita,CSE
+1715002,hirock,CSE
+1715003,Asif,CSE
+1715004,Shuvo,CSE
+1715005,sabeera,CSE
+1715006,Ashmita,CSE
+1715007,Sabira,CSE
+1715008,Shiv warsi,CSE
+1715009,usmita boro,CSE
+1715010,satashree,CSE
+1715011,neetya,CSE
+1715012,ritu,CSE
+1715013,hiresh,CSE
+1715014,padmanabha,CSE
+1715015,bhaskar,CSE
+1715016,vicky,CSE
+1715017,himanshu,CSE
+1715018,angshuman bora,CSE
+1715019,suman bera,CSE
+1715020,gagan jyoti,CSE
+1715021,dev manas,Mechanical
+1715022,bhawani sharma,civil
+1715023,shubham tiwari,ECE
+1715024,Aniket raj,CSE
+1715025,Anirban roy,ECE
+1715026,Ankan Pathak,Civil
+1715027,Abhinav Asthana,ECE
+1715028,Victor Das,ECE
+1715030,Ashish Ranjan,EE
+1715031,Siddhartha Singh,ECE
+1715032,DUPAL jit DAS,Civil
+1715033,Sarvagya Saxena,ECE
+1715034,Sohail Alam,Mechanical
+1715035,Yogesh Shukla,ECE
+1715037,Deepjoy Dey,CSE
+1715038,Rishab Surana,EE
+1715029,Abhishek ray,CSE

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="voteButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="317" max="-2" attributes="0"/>
+              <Component id="post" min="-2" pref="257" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="previousPost" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+                      <Component id="finalSubmit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="nextPost" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="63" max="32767" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="115" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="714" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel3" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="post" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="11" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="previousPost" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nextPost" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="finalSubmit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Rockwell" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="NATIONAL INSTITUTE OF TECHNOLOGY, SILCHAR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="F:\NIT_Silchar_logo.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="post">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="POST"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="voteFavour1" max="32767" attributes="0"/>
+                      <Component id="candName1" alignment="1" max="32767" attributes="0"/>
+                      <Component id="cand1Image" alignment="1" pref="168" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="cand2Image" pref="168" max="32767" attributes="0"/>
+                      <Component id="candName2" max="32767" attributes="0"/>
+                      <Component id="voteFavour2" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="cand3Image" pref="168" max="32767" attributes="0"/>
+                      <Component id="candName3" max="32767" attributes="0"/>
+                      <Component id="voteFavour3" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="cand4Image" pref="168" max="32767" attributes="0"/>
+                      <Component id="candName4" max="32767" attributes="0"/>
+                      <Component id="voteFavour4" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="cand5Image" pref="168" max="32767" attributes="0"/>
+                      <Component id="candName5" max="32767" attributes="0"/>
+                      <Component id="voteFavour5" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  <Component id="aboutMe1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                  <Component id="aboutMe2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                  <Component id="aboutMe3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="aboutMe4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                  <Component id="aboutMe5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cand2Image" alignment="3" min="-2" pref="209" max="-2" attributes="0"/>
+                      <Component id="cand1Image" alignment="3" min="-2" pref="209" max="-2" attributes="0"/>
+                      <Component id="cand5Image" alignment="3" min="-2" pref="209" max="-2" attributes="0"/>
+                      <Component id="cand3Image" alignment="3" min="-2" pref="209" max="-2" attributes="0"/>
+                      <Component id="cand4Image" alignment="3" min="-2" pref="209" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="candName1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="candName2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="candName3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="candName4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="candName5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="aboutMe1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aboutMe2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aboutMe4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aboutMe3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aboutMe5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="voteFavour1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="voteFavour2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="voteFavour3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="voteFavour4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="voteFavour5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="cand2Image">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\NetBeansProjects\EVM_VOTER_NITS\src\LOADER\man.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cand1Image">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="64" green="f0" red="f0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\NetBeansProjects\EVM_VOTER_NITS\src\LOADER\man.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cand5Image">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\NetBeansProjects\EVM_VOTER_NITS\src\LOADER\man.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cand3Image">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\NetBeansProjects\EVM_VOTER_NITS\src\LOADER\man.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cand4Image">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="F:\NetBeansProjects\EVM_VOTER_NITS\src\LOADER\man.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="candName1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="CANDIDATE 1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="candName2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="CANDIDATE 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="candName3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="CANDIDATE 3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="candName4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="CANDIDATE 4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="candName5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="CANDIDATE 5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="voteFavour1">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="voteButtonGroup"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="VOTE FOR HIM"/>
+            <Property name="hideActionText" type="boolean" value="true"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="voteFavour1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="voteFavour2">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="voteButtonGroup"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="VOTE FOR HIM"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="voteFavour2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="voteFavour3">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="voteButtonGroup"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="VOTE FOR HIM"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="voteFavour3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="voteFavour4">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="voteButtonGroup"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="VOTE FOR HIM"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="voteFavour4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="voteFavour5">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="voteButtonGroup"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="VOTE FOR HIM"/>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="voteFavour5ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="aboutMe1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="About Me"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutMe1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="aboutMe2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="About Me"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutMe2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="aboutMe4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="About Me"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutMe4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="aboutMe3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="About Me"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutMe3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="aboutMe5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="About Me"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutMe5ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="previousPost">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PREVIOUS POST"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="previousPostActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="finalSubmit">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SUBMIT ALL VOTES"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="finalSubmitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="nextPost">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" NEXT POST "/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nextPostActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

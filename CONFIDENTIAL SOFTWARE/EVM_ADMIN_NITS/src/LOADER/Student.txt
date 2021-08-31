@@ -1,0 +1,91 @@
+/*@Arpit Singh*/
+
+import java.io.*;
+import java.io.*;
+import java.sql.*;
+import java.util.*;
+
+
+
+public class Student
+{
+    public static int readData(String filename)
+    {
+        int res=0;
+        
+        try
+        {
+            String Filepath = "";
+            int i=0,Verify =0;
+            String Scholar_Id = null,Name = null, Branch = null;
+            FileInputStream fs = new FileInputStream(Filepath);
+            Workbook wb = Workbook.getWorkbook(fs);
+            
+            //To get the access to the sheet 
+            Sheet sh = wb.getSheet("Sheet1");
+            
+            //No of rows and column
+            int rows = sh.getrows();
+            int column = sh.getColumns();
+            
+            Connection conn = connect();
+            
+            for(int row=0;row<rows;row++)
+            {
+                for(int col = 0;col<column;col++)
+                {
+                    try
+                    {
+                        if(col ==0)
+                        {
+                            Scholar_Id = sh.getCell(col,row).getContents();
+                        }
+                        else if()
+                        {
+                            
+                        }
+                    }
+                    catch(Exception e)
+                    {
+                        e.printStackTrace();
+                    }
+                }
+            }
+            
+            
+            
+            
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+    
+    PreparedStatement pstat = conn.prepareStatement("INSERT INTO Student VALUES( ?,?,?,?)");
+    pstat.setString(1, Scholar_Id);
+            pstat.setString(2,Name);
+            pstat.setString(3,Branch);
+            pstat.setInt(4, Verify);
+            pstat.executeUpdate();
+    
+    private static Connection connect()
+    {
+        try
+        {
+            Class.forName("com.mysql.jdbc.Driver");
+            
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/evm_nits","root","Arpit@123");
+       
+        }
+        catch(SQLException | ClassNotFoundException e)
+        {
+            System.out.println(e);
+            return null;
+        }
+        
+        
+    }
+
+    
+}

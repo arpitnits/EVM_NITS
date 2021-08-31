@@ -1,0 +1,20 @@
+10001,1715029,Abhisek Ray,CSE,General_Secratary_Technical,i am a intelligent guy
+10002,1715030,Abhilash Roy,CSE,General_Secratary_Technical,i am a deligent guy
+10003,1715031,Debangan,CSE,General_Secratary_Technical,i am a hardworking guy
+10004,1715023,Shubham Tiwari,ECE,General_Secratary_Technical,i am a kind guy
+10005,1715060,Arpit singh,CSE,General_Secratary_Technical,i am a determined guy
+10006,1715001,Manaswita,CSE,General_Secretary_Cultural,i am a cool girl
+10007,1715002,hirak,CSE,General_Secretary_Cultural,i am a cool guy
+10008,1715003,Asif,CSE,General_Secretary_Cultural,i am a determined guy
+10009,1715004,Shuvo,CSE,General_Secretary_Cultural,i am a serious guy
+10010,1715036,Ojasvee,CSE,General_Secretary,i am an honest person
+10011,1715049,Amrit,CSE,General_Secretary,i am a workaholic person
+10012,1715026,Ankan pathak,Civil,General_Secretary,i am a hardworking guy
+10013,1715024,Tarun kumar,CSE,General_Secretary, underdog of NIT silchar.
+10014,1715060,Arpit singh,CSE,General_secretary, most evolved guy in NIT Silchar
+10015,1715011,neetya,CSE,General_Secretary_Cultural,i am a ambitious girl.
+10016,1715037,sohail,mechanical,Vice_President,i am a lone wolf.
+10017,1715020,gagan,CSE,Vice_President,i am a skilled.
+10018,1715021,dev manas,mechanical,Vice_President,i am a confident guy.
+10019,1715022,bhawani,Civil,Vice_President,i am a emotional guy
+10020,1715024,Aniket raj,CSE,Vice_President,i am a determined guy.

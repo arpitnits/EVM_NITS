@@ -1,0 +1,6 @@
+Naresh Babu,naresh@nits.com,CSE
+Suganya Devi,sk@nits.com,CSE
+Dolendro Singh,dls@nits.com,CSE
+arpit singh,ar@nits.com,CSE
+Nitghost,CampusEmailDoesnotexist@nits.com,DNE
+Iitghost,itshouldexist@nits.com.,ShouldExist
